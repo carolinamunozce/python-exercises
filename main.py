@@ -12,8 +12,8 @@ DATABASE_LOCATION = ""
 
 # Data user SP
 
-USER_ID = ""
-TOKEN = ""
+USER_ID = "carolina.munozce"
+TOKEN = "BQBTfGz4U3O2HBoT7-HWCVIT9LKX-7XIlaCKp4VOf8PfgGCH4e3TgXXf8CxhW-nRZFbr8Y3ZtZIs05qKczmJzQu21ToCfTeTjbT1u91Wbwceq_0seNZC3_2OQ__083lIRKBf_4WsxPGgGNxk3_iuA3K51EVT"
 
 if __name__ == "__main__":
     
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     played_at_list = []
     timestamps = []
 
-    for song in data ["items"]:
+    for song in data["items"]:
         song_names.append(song["track"]["name"])
         artist_names.append(song["track"]["album"]["artists"][0]["name"])
         played_at_list.append(song["played_at"])
