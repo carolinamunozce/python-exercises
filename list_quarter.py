@@ -1,9 +1,9 @@
-# Lista de los primeros 10 números al cuadrado 
+""" Lista de los primeros 10 números al cuadrado con list_comprehention o for
 
 # Ejemplo Lista
 # super_list = [
 #       {"firstname": "Carolina", "lastname": "Muñoz" } ] 
-
+"""
 def run():
     
     squares = [i**2 for i in range(1, 101) if i % 3 != 0]

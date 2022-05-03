@@ -1,4 +1,6 @@
-
+"""
+Función recursiva para números Fibonacci
+"""
 def fibo(num) :
     
     if num == 1:

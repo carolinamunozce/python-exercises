@@ -1,6 +1,7 @@
-# Programa que permite mostrar las diferentes formas de mostrar un raíz cuadrada
+""" Programa que permite mostrar las diferentes formas de mostrar un raíz cuadrada
 
 # El algoritmo de enumeración exhaustiva permite generar todas las opciones posibles para calcular un valor
+# """
 def enumeracion(objetivo):
     respuesta = 0
     while respuesta **2 < objetivo:

@@ -11,6 +11,7 @@ while abs(respuesta**2 -objetivo) >= epsilon:
     else:
         alto=respuesta
     
+    
     respuesta = (alto + bajo)/2
 
 print(f'La raíz cuadrada del {objetivo} es {respuesta}')

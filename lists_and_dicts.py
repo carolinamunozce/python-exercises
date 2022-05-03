@@ -1,3 +1,8 @@
+"""
+Ejemplos de listas y diccionarios
+"""
+
+
 def run():
     my_list = [1, "Hello", True, 4.5]
     my_dict = {"firstname": "Carolina", "lastname": "Muñoz" }
