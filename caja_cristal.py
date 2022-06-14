@@ -2,7 +2,7 @@
 Prueba de Caja de Cristal-> Se basan en el flujo del programa.
 Prueba todos los caminos prosibles de una función. Ramificaciones, bucles for y while, recursión.
 Se utiliza para Regression testing o mockup
-Se asume que ya hay código escrito98n .
+Se asume que ya hay código escrito .
 """
 import unittest
 
